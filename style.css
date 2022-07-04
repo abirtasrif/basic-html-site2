@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: rgba(173, 216, 230, 0.01);
+}
+
+header .logo h1 {
+  text-transform: uppercase;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 25px 0;
+  font-weight: 700;
+}
+
+header .logo .fa-solid {
+  margin-right: 10px;
+}
+
+.place-bg-container {
+  width: 100%;
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.saint-martin {
+  background-image: url(https://images.unsplash.com/photo-1582650625119-3a31f8fa2699);
+}
+.saint-text h1{
+  color: #3586c0 !important;
+}
+
+.kaptai-lake{
+  background-image: url(https://images.unsplash.com/photo-1645985926275-d2184d7c2d5c);
+}
+
+.kaptai-text h1{
+  color: #0d7e0d !important;
+}
+
+.sajek-valley{
+  background-image: url(https://images.unsplash.com/photo-1578128178220-4cf1157dbb9e);
+}
+.sajek-text h1{
+  color: #231c17 !important;
+}
+
+.nafa-khum{
+  background-image: url(https://images.unsplash.com/photo-1558673810-9b0b6316d4f4);
+}
+
+.nafa-text h1{
+  color: #19191ed2 !important;
+}
+
+.coxs-bazar{
+  background-image: url(https://images.unsplash.com/photo-1608958435020-e8a7109ba809);
+}
+.coxs-text h1{
+  color: #3a2e18 !important;
+}
+.place-bg-container h1 {
+  color: #fff;
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 100px 0 0 100px;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.place-details-container h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: rgba(0, 0, 255, 0.8);
+  margin: 25px 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.place-details-container p {
+  text-align: justify;
+  font-size: 1.3rem;
+  line-height: 130%;
+  margin-bottom: 10px;
+}
+
+.place-details-container {
+text-align: center;}
+.place-details-container a {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 8px 25px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 10px auto 40px auto;
+  
+}
+
+.place-details-container a:hover{
+  background-color: black;
+}
+
+.place-details-container a:active{
+  outline 5px solid black;
+}
+
+footer p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
